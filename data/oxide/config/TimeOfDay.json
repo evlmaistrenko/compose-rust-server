@@ -10,10 +10,10 @@
     "authLevelFreeze": 2,
     "autoSkipDay": false,
     "autoSkipNight": false,
-    "dayLength": 30,
+    "dayLength": 50,
     "freezeDate": false,
     "logAutoSkipConsole": true,
-    "nightLength": 30
+    "nightLength": 8
   },
   "TimeFreeze": {
     "freezeTimeOnload": false,
