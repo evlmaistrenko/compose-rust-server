@@ -15,6 +15,7 @@ Contains some preinstalled & preconfigured plugins.
 | [Time Of Day](https://umod.org/plugins/time-of-day) |  |
 | [Magic Loot](https://umod.org/plugins/magic-loot) |  |
 
+
 ## Using
 ### Installing
 Assuming you have [Docker](https://www.docker.com/) installed, have cloned this repository to `~/rust` directory and using Nano text editor
@@ -24,14 +25,6 @@ Assuming you have [Docker](https://www.docker.com/) installed, have cloned this 
 
 ### Running
 See docker compose [cli reference](https://docs.docker.com/compose/reference/)
-
-### Recommendations
-- Daily backup next files
-    - `/.env`
-    - `/data/oxide/plugins/*`
-    - `/data/oxide/config/*`
-    - `/data/oxide/oxide.config.json`
-    - `/data/server/docker/cfg/*`
 
 ## Private
 [Environment](https://drive.google.com/drive/folders/1WaCEp_BsFL3O04qAOJb3ItykPpzRw0zc?usp=drive_link)
