@@ -1,0 +1,18 @@
+services:
+  server:
+    image: didstopia/rust-server
+    restart: always
+    env_file: .env    
+    volumes:
+      - ./data:/steamcmd/rust
+    ports:
+      - 28015:28015
+      - 28015:28015/udp
+      - 28016:28016
+      - 8080:8080
+    deploy:
+      resources:
+        limits:
+          memory: 9G
+        reservations:
+          memory: 6G
